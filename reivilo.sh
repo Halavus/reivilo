@@ -1,6 +1,7 @@
 #! /bin/bash
 
-if [ $age_olivier -eq not_that_freaking_old ]
+if [ $age_olivier -eq not_that_freaking_old ]; then
+
 	mv ~/work /tmp/
 	mv $worries ~/.Trash-1000/
 	mv /family/* /heart/
