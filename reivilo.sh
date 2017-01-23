@@ -4,7 +4,7 @@ if [ $age_olivier -eq not_that_freaking_old ]; then
 
 	mv ~/work /tmp/
 	mv $worries ~/.Trash-1000/
-	rsync -avh /family/ /heart
+	rsync -avh /family/ /root/heart
 	echo '$success'>> /future/README.md
 	
 	for i in $( ls /happiness/ ); do
